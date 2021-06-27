@@ -409,6 +409,11 @@ VAR2=value2
 USER=denis
 ```
 
+```example
+$ docker run -e <env_variabele_name>=<env_variabele_value> -p 8080:80 -it <REGISTRY_NAME>/<image_name>:<tag>
+
+```
+
 ### Set metadata on container (-l, --label, --label-file)
 
 A label is a `key=value` pair that applies metadata to a container. To label a container with two labels:
